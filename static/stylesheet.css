@@ -5,11 +5,12 @@ DARK GREY: R-65 G-64 B-66
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-family: 'Darker Grotesque', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
   
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Darker Grotesque', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
 }
 
 p {
@@ -18,6 +19,6 @@ p {
 }
 
 div .carousel-inner {
-    font-family: 'Darker Grotesque', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 

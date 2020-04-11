@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="static/stylesheet.css"/>
     
     <!-- Custom Font -->
-    <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
 
     <title>CanVan Living</title>
 </head>
@@ -82,35 +82,40 @@
                 </div>
             </div>
         </div>
-        <!-- main youtube vid -->
         <div class="container">
+        
+            <!-- youtube section -->
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header text-center" id="headingOne">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h3 class="mb-0">
+                        #VanLife Videos
+                        </h3>
+                      </button>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <p>Below are three helpful videos that will show you what it takes to build an off-grid van to live and travel in.</p>
+                        <p>We also have videos that share more insight into #vanlife - where to park, how important having (or not having) a toilet is, tips
+                            for surviving winter, and more.</p>
+                        </p><a href="https://www.youtube.com/canVanliving" class="card-link">CanVan Living on YouTube</a></p>
+                    </div>
+                  </div>
+                </div>    
+            </div>
+
+        <!-- Main YouTube Video -->
             <div class="row">
                 <div class="card-body .col-sm-6 .col-lg-8">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/f_CIv41nvPo"
                             allowfullscreen></iframe>
                     </div>
-                </div>
-                <div class="card .col-6 .col-lg-4" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Build a tiny, mobile, home.</h5>
-                        <h6 class="card-subtitle mb-2 text-muted"></h6>
-                        <p class="card-text">
-                            Here are three helpful videos that will show you what it takes to build an off-grid van to live and travel
-                            in.
-                        </p>
-                        <p class="card-text"></p>
-                        We also have videos that share more insight into #vanlife - where
-                        to park, how important having (or not having) a toilet is, tips
-                        for surviving winter, and more.
-                        <p class="card-text">
-                            For these videos, check out our channel in the link below.
-                        </p>
-                        <a href="https://www.youtube.com/canVanliving" class="card-link">CanVan Living on YouTube</a>
-                    </div>
-                </div>
+                </div> 
             </div>
-            <!-- second row of youtube -->
+            <!-- Second row of youtube -->
             <div class="row">
                 <div class="card-body .col-6">
                     <div class="embed-responsive embed-responsive-16by9">
@@ -127,44 +132,40 @@
                     </div>
                 </div>
             </div>
-            <!-- third row of youtube
-            <div class="row">
-                <div class="card-body .col-6">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DY7LClFQNG8" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="card-body .col-6">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/rZLxxBtaATs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div> -->
-            <div class="card border-dark mb-3">
-                <div class="card-header">Our latest Instagram pics</div>
-                <div class="card-body text-dark">
-                  <!-- <h5 class="card-title">Dark card title</h5> -->
-                  <!-- SnapWidget -->
-                  <script src="https://snapwidget.com/js/snapwidget.js"></script>
-                  <iframe src="https://snapwidget.com/embed/809417" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+            
+
+            <!-- Instagram Setion -->
+            <div class="card text-center">
+                <div class="card-body">
+                  <h3>Instagram Photos</h3>
                 </div>
               </div>
 
+
+            <div class="card border-dark mb-3">
+                PHOTOS HERE
+              </div>
+
             <!-- BLOG POSTS -->
+            <div class="card text-center">
+                <div class="card-body">
+                  <h3>Blog Posts</h3>
+                </div>
+            </div>
+
+            <!-- BLOG POST ONE -->
             <div class="accordion" id="accordionExample">
                 <div class="card">
-                    <div class="card-header" id="headingOne">
+                    <div class="card-header" id="headingTwo">
                         <h2 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
-                                aria-expanded="true" aria-controls="collapseOne">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                aria-expanded="true" aria-controls="collapseTwo">
                                 Why we sold everything to live in a van.
                             </button>
                         </h2>
                     </div>
 
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                         <div class="card-body">
                             <p>
                                 We know what you’re thinking.
@@ -268,16 +269,17 @@
                         </div>
                     </div>
                 </div>
+                <!-- BLOG POST TWO -->
                 <div class="card">
-                    <div class="card-header" id="headingTwo">
+                    <div class="card-header" id="headingThree">
                         <h2 class="mb-0">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 Can living in a van be good for your mental health?
                             </button>
                         </h2>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                         <div class="card-body">
                             <p>
                                 Have you ever been in a situation where you felt scared?
@@ -403,16 +405,17 @@
                         </div>
                     </div>
                 </div>
+                <!-- BLOG POST THREE -->
                 <div class="card">
-                    <div class="card-header" id="headingThree">
+                    <div class="card-header" id="headingFour">
                         <h2 class="mb-0">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                 What a Vanlifer has to be thankful for.
                             </button>
                         </h2>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
                         data-parent="#accordionExample">
                         <div class="card-body">
                             <p>
@@ -470,13 +473,13 @@
                     </div>
                 </div>
             </div>
-
-            <div class="card-footer text-muted mt-4">
-                <a href="https://github.com/zsiskos" target="_blank" title="My GitHub repo" >Built by zoë.Supernova </a><img src="/images/GitHub-Mark-32px.png" alt="github logo"/>
+            <!-- FOOTER -->
+            <div class="card-footer text-muted mt-4 text-center">
+                <a href="https://github.com/zsiskos" target="_blank" title="My GitHub repo" >Built by zoë.Supernova </a><img src="./static/images/GitHub-Mark-32px.png" alt="github logo"/>
             </div>
         </div>
     </div>
-
+    <!-- Scripts for Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
