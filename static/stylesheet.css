@@ -23,5 +23,23 @@ div .carousel-inner {
 }
 
 #instagram {
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.orange {
+    background-color: #df4825;
+
+}
+
+.darkOrange {
+    background-color: #B32F10;
+}
+
+.darkGrey {
+    background-color: #414042;
+
+}
+.lightGrey {
+    background-color: #817F83;
+  
 }
