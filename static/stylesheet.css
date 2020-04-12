@@ -24,11 +24,12 @@ div .carousel-inner {
 
 #instagram {
     justify-content: space-around;
+    align-content: space-around;
 }
 
 .orange {
     background-color: #df4825;
-
+    
 }
 
 .darkOrange {
@@ -37,9 +38,15 @@ div .carousel-inner {
 
 .darkGrey {
     background-color: #414042;
-
+    border-color:  #414042;
+    color: white;
 }
+
 .lightGrey {
     background-color: #817F83;
-  
+    color: white;    
+}
+
+a {
+    color: #df4825;
 }
