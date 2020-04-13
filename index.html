@@ -50,12 +50,13 @@
         <div class="row">
             <div class="col-3">
                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active darkOrange" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
                         aria-controls="v-pills-home" aria-selected="true">Home</a>
                     <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
-                        aria-controls="v-pills-profile" aria-selected="false">Contact Us</a>
+                        aria-controls="v-pills-profile" aria-selected="false">About</a>
                     <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
                         aria-controls="v-pills-messages" aria-selected="false">In the Media</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Contact</a>
                 </div>
             </div>
             <div class="col-9">
@@ -70,11 +71,9 @@
                     </div>
                     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
                         aria-labelledby="v-pills-profile-tab">
-                        <p class="m-2">Have something to say? Have a question about the build? Just want to let us know
-                            how much you love us? (okay, we know you love Spanky).</p>
-                        <p class="m-2">Leave a comment on any of our platforms or email us – admin @ canvanliving DOT
-                            com – to send us a private or more detailed message. We will get back to you as soon as we
-                            can – thanks!</p>
+                        <p class="m-2">Below are helpful videos, pictures, and articles, that will will show you what it takes to build an off-grid van to live and travel in.</p>
+                        
+                        <p class="m-2">We've listed our favourites and if you want more just click on any of the items to go depeer into how we created this amazing adventure.
                     </div>
                     <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
                         aria-labelledby="v-pills-messages-tab">
@@ -86,45 +85,32 @@
                                 target="_blank" alt="Hamilton Spec print article about us"> Hamilton couple living in
                                 their van & loving it</a></p>
                         <p class="m-2">Hamilton Rising (blog):<a href=https://hamiltonrising.com/canvan-living/
-                                target="_blank" alt="Hamilton Rising blog post about us">LIfe in a van, in their own
+                                target="_blank" alt="Hamilton Rising blog post about us"> Life in a van, in their own
                                 words!</a></p>
                         <p class="m-2">Feedspot (award):<a href=https://blog.feedspot.com/van_life_youtube_channels/
                                 target="_blank" alt="List of top 100 vanlife channels"> Top 100 Van Life Youtube
                                 Channels for Campervan Enthusiasts</a></p>
                     </div>
-                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                        aria-labelledby="v-pills-settings-tab">
-
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                        <p class="m-2 mb-3">Have a question or comment? Want to send some love to Spanky?</p>
+                        <p class="m-2">Feel free to leave a comment on any of our social profiles (we still monitor them!) or email us at admin @ canvanliving DOT com.</p>
+                        <p class="text-center">
+                            <a href="https://www.instagram.com/canvanliving/" target=”_blank”>
+                            <img src="./static/images/instagram-logo.png" alt="CanVan Living on Instagram" class="img-fluid mr-3"></a>
+                            <a href="https://www.facebook.com/canvanliving/" target=”_blank”>
+                            <img src="./static/images/facebook_logos.png" alt="CanVan Living on Facebook" class="img-fluid mr-3"></a>
+                            <a href="https://www.youtube.com/canvanliving/" target=”_blank”>
+                            <img src="./static/images/youtube_logo.png" alt="CanVan Living on YouTube" class="img-fluid mr-3"></a>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
         <hr class="lightGrey"/> 
-            <!-- youtube section -->
-            <div class="accordion" id="accordionExample">
-                <div class="card darkGrey">
-                    <div class="card-header text-center" id="headingOne">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
-                            aria-expanded="true" aria-controls="collapseOne">
-                            <h2>
-                                #VanLife Videos
-                            </h2>
-                        </button>
-                    </div>
-
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                        <div class="card-body">
-                            <p>Below are three helpful videos that will show you what it takes to build an off-grid van
-                                to live and travel in.</p>
-                            <p>We also have videos that share more insight into #vanlife - where to park, how important
-                                having (or not having) a toilet is, tips
-                                for surviving winter, and more. See <a href="https://www.youtube.com/canVanliving" class="card-link">CanVan Living on
-                                YouTube</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <!-- Main YouTube Video -->
+            <div class="card-body">
+                <h3 class="text-center">#VanLife Videos</h3>
+            </div>
             <div class="row">
                 <div class="card-body .col-sm-6 .col-lg-8">
                     <div class="embed-responsive embed-responsive-16by9 rounded border border-white">
@@ -516,9 +502,9 @@
             </div>
         </div>
     </div>
-
+    <hr class="lightGrey"/> 
     <!-- FOOTER -->
-    <div class="card-footer text-muted mt-4 text-center">
+    <div class="card-footer text-muted text-center">
         <a href="https://github.com/zsiskos" target="_blank" title="My GitHub repo">Built by zoë.Supernova
         </a><img src="./static/images/GitHub-Mark-32px.png" alt="github logo" />
     </div>

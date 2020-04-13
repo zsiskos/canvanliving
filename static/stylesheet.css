@@ -4,7 +4,6 @@ DARK GREY: R-65 G-64 B-66
 */
 
 body {
-    
     font-family: 'Open Sans', sans-serif;
 }
   
@@ -15,8 +14,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-      font-size: 16px;
-      font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 div .carousel-inner {
@@ -29,8 +28,8 @@ div .carousel-inner {
 }
 
 .orange {
-    background-color: #df4825;
-    
+    background-image: linear-gradient(#B32F10, #df4825,#E77054 );
+   
 }
 
 .darkOrange {
@@ -50,4 +49,17 @@ div .carousel-inner {
 
 a {
     color: #df4825;
+}
+
+a:hover, .btn:hover {
+    color: #df4825;
+}
+
+.btn {
+    color: #df4825;
+    font-size: 20px; 
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #df4825;
 }
